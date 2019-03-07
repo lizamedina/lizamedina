@@ -6,7 +6,7 @@
 body {
     font: 16px Helvetica, Sans-Serif;
     line-height: 24px;
-    background-color: #F6EDFD;
+    background-color: rgba(67, 141, 122, 0.61);
 }
 
 .clear {
@@ -29,7 +29,7 @@ h1 {
     font-size: 42px;
     font-weight: bold;
     letter-spacing: -2px;
-    border-bottom: 3px solid #999;
+    border-bottom: 3px solid rgba(54, 39, 90, 0.507);
 }
 
 h2 {
