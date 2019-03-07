@@ -76,7 +76,7 @@ ul {
 #objective p {
     font-family: Georgia, Serif, serif;
     font-style: italic;
-    color: #333;
+    color: #666;
 }
 
 dt {
@@ -88,7 +88,7 @@ dt {
     width: 150px;
     float: left;
     height: 100px;
-    border-right: 1px solid #333;
+    border-right: 1px solid #666;
 }
 
 dd {
