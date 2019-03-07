@@ -54,14 +54,14 @@ p {
 }
 
 a {
-    color: #999;
+    color: rgba(56, 42, 117, 0.548);
     text-decoration: none;
-    border-bottom: 1px dotted #999;
+    border-bottom: 1px dotted rgba(57, 82, 17, 0.589);
 }
 
 a:hover {
     border-bottom-style: solid;
-    color: black;
+    color: rgba(5, 39, 32, 0.452);
 }
 
 ul {
@@ -76,7 +76,7 @@ ul {
 #objective p {
     font-family: Georgia, Serif, serif;
     font-style: italic;
-    color: #666;
+    color: rgba(108, 123, 150, 0.514);
 }
 
 dt {
@@ -93,7 +93,7 @@ dd {
     width: 600px;
     float: left;
 	margin: 10;
-	border-left: 2px solid #999;
+	border-left: 2px solid rgba(197, 101, 133, 0.575);
 }
 
 dd.clear {
