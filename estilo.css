@@ -76,7 +76,7 @@ ul {
 #objective p {
     font-family: Georgia, Serif, serif;
     font-style: italic;
-    color: #666;
+    color: rgba(3, 16, 41, 0.466);
 }
 
 dt {
