@@ -1,110 +1,34 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-	<title>CV-Liza Medina</title>
-  </head>
-  <body>
-    <div id="page-wrap">
-      <!-- Para darle estilo a la página -->
-      <header>
-          <figure>
-                <img class="profile" src="imagenliza.jpg" alt="fotoliza" id="pic" />
-          </figure>
-        <div id="contact-info" class="vcard">
-          <h1 class="fn">Liza Medina</h1>
-          <p>
-            <b>Celular:</b> <span class="Celular">(0981) 532 430</span><br />
-            <b>Email:</b>
-            <a class="email" href=" mailto:lizamedina90@gmail.com">lizamedina90@gmail</a><br />
-            <b>Direccion:</b> <span class="Direccion">Ciencias Veterinarias c/ H. Pettersen</span><br />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Recordatorio</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Recordatorio</h1>
+        <p>
+            <label for="new-task">Nuevo Recordatorio</label>
+            <input id="new-task" type="text"><button class="add">Agregar</button>
+        </p>
+
+        <h2>Lista de Recordatorios</h2>
+        <ul id="incomplete-tasks">
+            <li>
+                <label>
+                    Recordatorio 1 - 12/05/2019
+		 </label>
+		</li>
+                <label>
+                    Recordatorio 2 - 16/05/2019
+                </label>
                 
-          </p>
-        </div>
-      </header>
-	  <main>
-        <section id="objective">
-            <h2>Resumen</h2>
-          <p>
-            <b>Analista de Seguridad </b>
-            5 años de experiencia en el area de Seguridad Informática en sectores Financieros y  de Seguros.
-            Responsable, autodidacta, con ganas de aprender siempre, tolerante, adaptable a cambios, capacidad para resolver problemas,
-            flexible y cordial.
-          </p>
-        </section>
-		<div class="clear"></div>
-        <section>
-		<dl>
-            <dt>Formación Académica</dt>
-            <dd>
-              <h2>&nbsp;Estudios Primarios y Secundarios </h2>
-              <p>
-                <strong>&nbsp; Nivel primario:</strong> Escuela Gral. Diaz <br />
-				<strong>&nbsp; Nivel secundario:</strong> Colegio Nacional de Pirayu <br />
-				        &nbsp; Título Obtenido: Bachiller Cientifico en Ciencias y Letras
-              </p>
-			  <h2>&nbsp; Carreras (Técnicas y/o Universitarias) </h2>
-			  <p>
-				<strong>&nbsp; Universidad Nacional de Asunción </strong> <br />
-				<i>&nbsp; Licenciatura en Ciencias Informáticas </i> <br />
-				   &nbsp; Énfasis: Análisis de Sistemas
-			</dd>
-            <dd class="clear"></dd>
-			<dt><strong>&nbsp; Habilidades </strong> <br /></dt>
-            <dd>
-              <p>
-                &nbsp; - Capacidad de Análisis y Resolución de Problemas <br />
-				&nbsp; - Capacidad de trabajo bajo presión <br />
-				&nbsp; - Conocimientos de Virtualización de Servidores <br />
-				&nbsp; - Conocimientos de configuración de Servidores Linux y Windows Server <br />
-				&nbsp; - Conocimiento de herramientas SIEM <br />
-                &nbsp; - Conocimiento de configuracion de Directorio Activo <br />
-                &nbsp; - Conocimiento de configuracion de Antivirus MacAfee y Kaspersky <br />
-                &nbsp; - Conocimiento de configuracion de Nexpose y PMP <br />
-              </p>
-			</dd>
-            <dd class="clear"></dd>
-			<dd class="clear"></dd>
-			<dt><strong>&nbsp;Experiencia Laboral</strong> <br /></dt>
-            <dd>
-              <p>
-			    <strong>&nbsp; Empresa:</strong> Banco Basa S.A. (Actualidad) <br />
-						&nbsp; <i>Cargo: Oficial de Seguridad de la Informacion</i>  <br />
-						&nbsp; <i>Antigüedad: 3 meses</i>  <br />
-				<br /><strong>&nbsp; Empresa:</strong>La Rural S.A. de Seguros <br />
-						&nbsp; <i>Cargo: Analista de Seguridad</i>  <br />
-                        &nbsp; <i>Antigüedad: 1 año y 10 meses</i> <br />
-                <br /><strong>&nbsp; Empresa:</strong>Financiera El Comercio <br />
-						&nbsp; <i>Cargo: Analista de Seguridad</i>  <br />
-						&nbsp; <i>Antigüedad: 3 años y 10 meses</i>
-              </p>
-			</dd>
-            <dd class="clear"></dd>
-			<dd class="clear"></dd>
-			<dt><strong>&nbsp; Pasatiempos </strong> <br /></dt>
-            <dd>
-              <p>
-			    &nbsp; * Deportes extremos <br />
-				&nbsp; * Ver Películas y escuchar musica <br />
-				&nbsp; * Paseos largos y acampar <br />
-              </p>
-			</dd>
-            <dd class="clear"></dd>
-			<dt><strong>&nbsp; Referencias </strong> <br /></dt>
-            <dd>
-              <p>
-			    &nbsp; Pueden ver más en: <br />
-				&nbsp; Información adicional en <a href="https://github.com/lizamedina">github</a>  <br />
-              </p>
-			</dd>
-            <dd class="clear"></dd>
-		</dl>
-		</section>
-	</main>
-       <footer>
-        Lmedina © 2019
-      </footer>
-	</div>
-	</body>
- </html>
+
+        </ul>
+    </div>
+	<script type="text/javascript" src="js/ajax.js" async></script>
+        <script type="text/javascript" src="js/todolist.js" async></script>
+</body>
+</html>
